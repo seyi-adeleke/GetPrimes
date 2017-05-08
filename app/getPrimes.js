@@ -3,7 +3,16 @@
 
 exports.getPrimes = function(n){
     let primes=[];
+    if(n=undefined){
+        return primes;
+    }
+    if(n<0 || n == 0){
+        return primes;
 
+    }
+    if(typeof n !== "number"){
+        return primes
+    }
     for(let i=0;i<=n;i++){
         if(isPrime(i)){
             primes.push(i);
