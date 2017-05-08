@@ -1,0 +1,14 @@
+{
+  "name": "get-primes",
+  "version": "1.0.0",
+  "description": "A function for generating an array of prime numbers",
+  "main": "isPrime.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "adetokunbo adeleke",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  }
+}
