@@ -3,9 +3,7 @@
 
 exports.getPrimes = function(n){
     let primes=[];
-    if(n=undefined){
-        return primes;
-    }
+   
     if(n<0 || n == 0){
         return primes;
 
